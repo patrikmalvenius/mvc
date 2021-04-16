@@ -1,0 +1,12 @@
+
+FILE: C:\Users\malve\dbwebb-kurser\mvc\me\game\view\game21play.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 79 | ERROR | [x] Whitespace found at end of line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+Time: 553ms; Memory: 6MB
+
