@@ -7,10 +7,13 @@ namespace Pama\Game;
 class Dice
 {
     public $sides;
+    public $lastroll;
 
     public function roll()
     {
-        return  rand(1, $this->sides);
+        $this->lastroll = rand(1, $this->sides);
+
+        return  $this->lastroll;
     }
 
     public function __construct(int $sides = 6)
