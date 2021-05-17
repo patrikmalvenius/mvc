@@ -50,12 +50,21 @@ class DiceHand
      */
     public function values()
     {
+        //$values = [];
+        for ($i = 0; $i < count($this->dices); $i++) {
+            $this->values[$i] = $this->dices[$i]->lastroll;
+        };
+        return $this->values;
+    }
+/*
+    public function values()
+    {
         $values = [];
         for ($i = 0; $i < count($this->dices); $i++) {
             $values[$i] = $this->values[$i];
         };
         return $values;
-    }
+    }*/
 
     /**
      * Get the sum of all dices.
@@ -81,5 +90,10 @@ class DiceHand
     {
         $average = $this->sum() / count($this->dices);
         return $average;
+    }
+
+    public function getdice($index)
+    {
+        return $this->dices[$index];
     }
 }

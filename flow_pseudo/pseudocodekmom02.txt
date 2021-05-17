@@ -1,0 +1,60 @@
+CLASS YATZY
+	ScoreBoard = [1, 2, 3, 4, 5, 6, "chans"]
+	Score = 0
+	Dices = new DiceHand()
+	Rolls = 0
+	
+
+WHILE Scoreboard.LEN() != 0:
+	PRINT "slå tärningar?"
+
+	IF "ja":
+		PLAY()
+	ELSE:
+		EXIT()
+		
+	FUNCTION PLAY():
+		WHILE ROLLS < 2:
+			IF Rolls === 0:
+				Roll([0,1,2,3,4)
+			PRINT "Slå igen? Välj de tärningar du vill slå om och klicka JA. Om du är nöjd, klicka NEJ"
+			SHOW_RESULT()
+		PRINT "Det var sista slaget! Nu går vi till resultatberäkningen"
+		Rolls = 0
+		CALC_SCORE()
+
+	FUNCTION CALC_SCORE():
+		PRINT "Du har möjlighet att stoppa in ditt resultat i dessa rutor:"
+		PRINT ScoreBoard
+		PRINT "Ditt resultat är:"
+		DICE_HISTOGRAM()
+		PRINT "Välj vilket tärningar du vill ta poäng för:"
+		DICE_SCORE()
+		
+	
+			
+	FUNCTION ROLL(indexes):
+		FOR index IN indexes:
+			Dices[index].roll()
+		Rolls += 1
+		Return
+			
+	FUNCTION SHOW_RESULT():
+		FOR dice IN Dices:
+			PRINT CheckBox + dice
+		PRINT YesButton
+		PRINT NoButton
+		ON YesButton:
+			FOR check IN CheckBox:
+				Roll(check)
+			PLAY()
+		ON NoButton:
+			Rolls = 0
+			CALC_SCORE()
+		Return
+
+
+
+
+			
+	
