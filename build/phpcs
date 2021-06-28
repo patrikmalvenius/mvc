@@ -1,12 +1,13 @@
 
 FILE: C:\Users\malve\dbwebb-kurser\mvc\me\game\config\router.php
-----------------------------------------------------------------------
-FOUND 1 ERROR AFFECTING 1 LINE
-----------------------------------------------------------------------
- 43 | ERROR | [x] Expected 1 newline at end of file; 0 found
-----------------------------------------------------------------------
-PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
-----------------------------------------------------------------------
+-------------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+-------------------------------------------------------------------------
+  7 | ERROR | [x] Header blocks must be separated by a single blank line
+ 51 | ERROR | [x] Expected 1 newline at end of file; 0 found
+-------------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+-------------------------------------------------------------------------
 
 
 FILE: C:\Users\malve\dbwebb-kurser\mvc\me\game\src\Game\GraphicalDice.php
@@ -32,6 +33,61 @@ PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
 --------------------------------------------------------------------------
 
 
+FILE: C:\Users\malve\dbwebb-kurser\mvc\me\game\test\Game\DicehandTest.php
+------------------------------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+------------------------------------------------------------------------------------------
+ 34 | ERROR | [x] The closing brace for the class must go on the next line after the body
+------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+------------------------------------------------------------------------------------------
+
+
+FILE: C:\Users\malve\dbwebb-kurser\mvc\me\game\test\Game\DiceTest.php
+------------------------------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+------------------------------------------------------------------------------------------
+ 23 | ERROR | [x] The closing brace for the class must go on the next line after the body
+------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+------------------------------------------------------------------------------------------
+
+
+FILE: C:\Users\malve\dbwebb-kurser\mvc\me\game\test\Game\GraphicalDiceTest.php
+------------------------------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+------------------------------------------------------------------------------------------
+ 33 | ERROR | [x] The closing brace for the class must go on the next line after the body
+------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+------------------------------------------------------------------------------------------
+
+
+FILE: C:\Users\malve\dbwebb-kurser\mvc\me\game\test\Game\HistogramTest.php
+------------------------------------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+------------------------------------------------------------------------------------------------
+ 19 | ERROR | Method name "HistogramTraitTest::test_printHistogram" is not in camel caps format
+------------------------------------------------------------------------------------------------
+
+
+FILE: C:\Users\malve\dbwebb-kurser\mvc\me\game\test\Game\YatzyTest.php
+------------------------------------------------------------------------------------------
+FOUND 8 ERRORS AFFECTING 8 LINES
+------------------------------------------------------------------------------------------
+ 14 | ERROR | [x] There must be a blank line following the last trait import statement
+ 31 | ERROR | [x] Whitespace found at end of line
+ 44 | ERROR | [x] Whitespace found at end of line
+ 55 | ERROR | [x] Whitespace found at end of line
+ 67 | ERROR | [x] Whitespace found at end of line
+ 80 | ERROR | [x] Whitespace found at end of line
+ 92 | ERROR | [x] Whitespace found at end of line
+ 95 | ERROR | [x] The closing brace for the class must go on the next line after the body
+------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 8 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+------------------------------------------------------------------------------------------
+
+
 FILE: C:\Users\malve\dbwebb-kurser\mvc\me\game\view\game21play.php
 ----------------------------------------------------------------------
 FOUND 1 ERROR AFFECTING 1 LINE
@@ -41,5 +97,5 @@ FOUND 1 ERROR AFFECTING 1 LINE
 PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
 ----------------------------------------------------------------------
 
-Time: 783ms; Memory: 8MB
+Time: 1.92 secs; Memory: 8MB
 

@@ -37,7 +37,6 @@ if ($_SESSION["dice"] ?? false) {
                 $prompt_cont = "GRATTIS! You should really stop now! Or do you want to continue?";
             } else if ($_SESSION["twentyone"] > 21) {
                 $prompt_cont = "Sorry, you lost right there! You can continue to roll, but I suggest you press No below";
-
             }
         } else {
             $_SESSION["twentyone"] = $value;

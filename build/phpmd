@@ -1,19 +1,17 @@
 C:\Users\malve\dbwebb-kurser\mvc\me\game\src\Controller\Game21.php:45	The method handle uses an else expression. Else clauses are basically not necessary and you can simplify the code by not using them.
-C:\Users\malve\dbwebb-kurser\mvc\me\game\src\Controller\Yatzy.php:39	The method handlepost uses an else expression. Else clauses are basically not necessary and you can simplify the code by not using them.
+C:\Users\malve\dbwebb-kurser\mvc\me\game\src\Controller\Yatzy.php:40	The method handlepost uses an else expression. Else clauses are basically not necessary and you can simplify the code by not using them.
 C:\Users\malve\dbwebb-kurser\mvc\me\game\src\Game\DiceHand.php:41	Avoid using Pama\Game\count() function in for loops.
 C:\Users\malve\dbwebb-kurser\mvc\me\game\src\Game\DiceHand.php:54	Avoid using Pama\Game\count() function in for loops.
 C:\Users\malve\dbwebb-kurser\mvc\me\game\src\Game\DiceHand.php:78	Avoid using Pama\Game\count() function in for loops.
 C:\Users\malve\dbwebb-kurser\mvc\me\game\src\Game\HistogramTrait.php:49	The method printHistogram uses an else expression. Else clauses are basically not necessary and you can simplify the code by not using them.
 C:\Users\malve\dbwebb-kurser\mvc\me\game\src\Game\HistogramTrait.php:53	The method printHistogram uses an else expression. Else clauses are basically not necessary and you can simplify the code by not using them.
-C:\Users\malve\dbwebb-kurser\mvc\me\game\src\Game\Yatzy.php:87	The method start uses an else expression. Else clauses are basically not necessary and you can simplify the code by not using them.
-C:\Users\malve\dbwebb-kurser\mvc\me\game\src\Game\Yatzy.php:91	The method start uses an else expression. Else clauses are basically not necessary and you can simplify the code by not using them.
-C:\Users\malve\dbwebb-kurser\mvc\me\game\src\Game\Yatzy.php:113	The method play uses an else expression. Else clauses are basically not necessary and you can simplify the code by not using them.
-C:\Users\malve\dbwebb-kurser\mvc\me\game\src\Game\Yatzy.php:127	The method calcScore uses an else expression. Else clauses are basically not necessary and you can simplify the code by not using them.
-C:\Users\malve\dbwebb-kurser\mvc\me\game\src\Game\Yatzy.php:152	Avoid variables with short names like $nr. Configured minimum length is 3.
-C:\Users\malve\dbwebb-kurser\mvc\me\game\src\Game\Yatzy.php:152	Avoid variables with short names like $nr. Configured minimum length is 3.
-C:\Users\malve\dbwebb-kurser\mvc\me\game\src\Game\Yatzy.php:164	Avoid variables with short names like $nr. Configured minimum length is 3.
-C:\Users\malve\dbwebb-kurser\mvc\me\game\src\Game\Yatzy.php:164	Avoid variables with short names like $nr. Configured minimum length is 3.
-C:\Users\malve\dbwebb-kurser\mvc\me\game\src\Router\Router.php:21	The method dispatch() has a Cyclomatic Complexity of 26. The configured cyclomatic complexity threshold is 10.
-C:\Users\malve\dbwebb-kurser\mvc\me\game\src\Router\Router.php:85	The method dispatch uses an else expression. Else clauses are basically not necessary and you can simplify the code by not using them.
-C:\Users\malve\dbwebb-kurser\mvc\me\game\src\funcs.php:21	The method recordWinner uses an else expression. Else clauses are basically not necessary and you can simplify the code by not using them.
-C:\Users\malve\dbwebb-kurser\mvc\me\game\src\functions.php:222	The method recordWinner uses an else expression. Else clauses are basically not necessary and you can simplify the code by not using them.
+C:\Users\malve\dbwebb-kurser\mvc\me\game\src\Game\Yatzy.php:97	The method start uses an else expression. Else clauses are basically not necessary and you can simplify the code by not using them.
+C:\Users\malve\dbwebb-kurser\mvc\me\game\src\Game\Yatzy.php:101	The method start uses an else expression. Else clauses are basically not necessary and you can simplify the code by not using them.
+C:\Users\malve\dbwebb-kurser\mvc\me\game\src\Game\Yatzy.php:123	The method play uses an else expression. Else clauses are basically not necessary and you can simplify the code by not using them.
+C:\Users\malve\dbwebb-kurser\mvc\me\game\src\Game\Yatzy.php:137	The method calcScore uses an else expression. Else clauses are basically not necessary and you can simplify the code by not using them.
+C:\Users\malve\dbwebb-kurser\mvc\me\game\src\Game\Yatzy.php:162	Avoid variables with short names like $nr. Configured minimum length is 3.
+C:\Users\malve\dbwebb-kurser\mvc\me\game\src\Game\Yatzy.php:162	Avoid variables with short names like $nr. Configured minimum length is 3.
+C:\Users\malve\dbwebb-kurser\mvc\me\game\src\Game\Yatzy.php:174	Avoid variables with short names like $nr. Configured minimum length is 3.
+C:\Users\malve\dbwebb-kurser\mvc\me\game\src\Game\Yatzy.php:174	Avoid variables with short names like $nr. Configured minimum length is 3.
+C:\Users\malve\dbwebb-kurser\mvc\me\game\src\functions.php:224	The method recordWinner uses an else expression. Else clauses are basically not necessary and you can simplify the code by not using them.
+C:\Users\malve\dbwebb-kurser\mvc\me\game\test\Game\HistogramTest.php:19	The method test_printHistogram is not named in camelCase.

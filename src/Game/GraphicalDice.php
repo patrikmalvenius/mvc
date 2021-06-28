@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Pama\Game;
 
-class DiceGraphic extends Dice
-{ 
+class GraphicalDice extends Dice
+{
     /**
      * @var integer SIDES Number of sides of the Dice.
      */
@@ -28,6 +28,4 @@ class DiceGraphic extends Dice
     {
         return "dice-" . $this->lastroll;
     }
-
-
 }

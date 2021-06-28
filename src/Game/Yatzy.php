@@ -50,6 +50,16 @@ class Yatzy
         $this->rolls += 1;
     }
 
+    public function getRolls()
+    {
+        return $this->rolls;
+    }
+
+    public function getDiceHandSum()
+    {
+        return $this->dicehand->sum();
+    }
+
     public function start()
     {
         if (isset($_SESSION["scorebox"])) {
@@ -149,8 +159,8 @@ class Yatzy
         echo('Dessa rutor i protokollet är oifyllda: <br/>');
         echo('<p>');
         foreach ($this->scoreboard as $key => $value) {
-            $nr = $key + 1;
-            echo "Ruta {$nr}: {$value} <br/>";
+            $numr = $key + 1;
+            echo "Ruta {$numr}: {$value} <br/>";
         }
         echo('</p>');
     }
@@ -161,8 +171,8 @@ class Yatzy
         echo('<br/><br/>');
         echo('<p>');
         foreach ($this->dicehand->values() as $key => $value) {
-            $nr = $key + 1;
-            echo "Tärning nummer {$nr} :   {$value} <br/>";
+            $numr = $key + 1;
+            echo "Tärning nummer {$numr} :   {$value} <br/>";
         }
         echo('</p>');
     }

@@ -34,6 +34,7 @@ class Yatzy
     public function handlepost(): ResponseInterface
     {
         if (isset($_SESSION["score"]) && $_SESSION["score"] == 1) {
+            var_dump($_POST);
             $_SESSION["scorebox"] = $_POST;
             $_SESSION["score"] = 0;
         } else {

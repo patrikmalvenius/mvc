@@ -45,7 +45,6 @@ trait HistogramTrait
             for ($i = 0; $i < count($values); $i++) {
                 $this->serie[$values[$i]] += 1;
             }
-
         } else {
             for ($i = 0; $i < count($values); $i++) {
                 if (isset($this->serie[$values[$i]])) {
